@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seguridad, SST e Infraestructura Vial 2026</title>
+  <meta name="description" content="Landing page profesional sobre Seguridad y Salud en el Trabajo (SG-SST), señalización técnica e infraestructura vial 2026." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Seguridad, SST e Infraestructura Vial 2026" />
+  <meta property="og:description" content="Cumplimiento técnico, gestión vial y SG-SST para empresas modernas y sostenibles." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon Emoji -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚧</text></svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f97316',
+            secondary: '#0f172a',
+            accent: '#22c55e'
+          },
+          animation: {
+            fadeInUp: 'fadeInUp 0.8s ease-out forwards'
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': {
+                opacity: '0',
+                transform: 'translateY(40px)'
+              },
+              '100%': {
+                opacity: '1',
+                transform: 'translateY(0)'
+              }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .fade-section {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s ease;
+    }
+
+    .fade-section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .glass {
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg md:text-2xl text-primary">
+        🚧 SST & Infraestructura 2026
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a href="#inicio" class="hover:text-primary transition">Inicio</a>
+        <a href="#beneficios" class="hover:text-primary transition">Beneficios</a>
+        <a href="#sobre" class="hover:text-primary transition">Sobre el Tema</a>
+        <a href="#faq" class="hover:text-primary transition">FAQ</a>
+      </nav>
+
+      <button id="themeToggle"
+        class="p-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:scale-110 transition">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio"
+    class="relative overflow-hidden min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-orange-700 text-white px-6">
+
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute w-96 h-96 bg-orange-500 rounded-full blur-3xl top-10 left-10"></div>
+      <div class="absolute w-96 h-96 bg-yellow-500 rounded-full blur-3xl bottom-10 right-10"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl text-center fade-section">
+      <span
+        class="inline-block mb-6 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm tracking-wide uppercase">
+        Seguridad • SG-SST • Infraestructura Vial
+      </span>
+
+      <h1 class="text-4xl md:text-7xl font-black leading-tight mb-8">
+        Seguridad y Gestión Vial <span class="text-orange-400">2026</span>
+      </h1>
+
+      <p class="text-lg md:text-2xl text-slate-200 leading-relaxed max-w-4xl mx-auto mb-10">
+        En 2026, la convergencia entre la Seguridad y Salud en el Trabajo (SST) y la señalización
+        técnica de infraestructura vial se convierte en el núcleo de la resiliencia corporativa.
+        El cumplimiento técnico ya no es opcional: es la garantía de continuidad operativa,
+        sostenibilidad y blindaje legal bajo las Resoluciones 1890 y 908 de 2025.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/573122545428"
+          class="bg-primary hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-semibold shadow-2xl hover:scale-105 transition duration-300">
+          Solicitar Asesoría
+        </a>
+
+        <a href="#beneficios"
+          class="border border-white/30 hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-semibold transition duration-300">
+          Conocer Más
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios" class="py-24 px-6 bg-slate-50 dark:bg-slate-900">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16 fade-section">
+        <h2 class="text-4xl md:text-5xl font-black mb-4">
+          Pilares Estratégicos
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+          La SST y la señalización técnica son hoy una ventaja competitiva alineada con sostenibilidad,
+          cumplimiento y continuidad empresarial.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- CARD 1 -->
+        <div
+          class="fade-section bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 border border-slate-200 dark:border-slate-700">
+          <div class="text-5xl mb-6">🛡️</div>
+          <h3 class="text-2xl font-bold mb-4">
+            Blindaje Legal y Sostenibilidad
+          </h3>
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            El cumplimiento de las Resoluciones 1890 y 908 de 2025 evita sanciones,
+            suspensiones y riesgos reputacionales. La trazabilidad digital garantiza
+            evidencia probatoria de debida diligencia frente a inspecciones y siniestros.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div
+          class="fade-section bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 border border-slate-200 dark:border-slate-700">
+          <div class="text-5xl mb-6">🧠</div>
+          <h3 class="text-2xl font-bold mb-4">
+            Bienestar y Salud Emocional
+          </h3>
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            La gestión del riesgo psicosocial es ahora un punto de auditoría obligatorio.
+            La prevención del estrés y burnout fortalece productividad, cumplimiento y
+            sostenibilidad humana dentro del SG-SST.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div
+          class="fade-section bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300 border border-slate-200 dark:border-slate-700">
+          <div class="text-5xl mb-6">🚧</div>
+          <h3 class="text-2xl font-bold mb-4">
+            Seguridad Vial y PMT
+          </h3>
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            La correcta implementación del Plan de Manejo de Tránsito reduce accidentes,
+            protege vidas y garantiza operaciones seguras mediante señalización técnica,
+            canalización y control efectivo del riesgo vial.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE EL TEMA -->
+  <section id="sobre" class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-16 fade-section">
+        <h2 class="text-4xl md:text-5xl font-black mb-4">
+          Estándares Operativos 2026
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+          La precisión técnica y la trazabilidad documental son esenciales para superar
+          inspecciones y garantizar continuidad operacional.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-10">
+
+        <div
+          class="fade-section bg-slate-100 dark:bg-slate-900 rounded-3xl p-8 border border-slate-200 dark:border-slate-800">
+          <h3 class="text-2xl font-bold mb-6 text-primary">
+            📋 Marco Normativo y SG-SST
+          </h3>
+
+          <ul class="space-y-5 text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>✔ Resoluciones 1890 y 908 de 2025 integradas al Decreto 1072 de 2015.</li>
+            <li>✔ SG-SST obligatorio para todas las empresas sin excepción.</li>
+            <li>✔ COPASST obligatorio para organizaciones con 10 o más trabajadores.</li>
+            <li>✔ Evaluaciones médicas obligatorias: ingreso, periódicas y retiro.</li>
+            <li>✔ Riesgo psicosocial evaluado mediante instrumentos oficiales del Ministerio.</li>
+          </ul>
+        </div>
+
+        <div
+          class="fade-section bg-slate-100 dark:bg-slate-900 rounded-3xl p-8 border border-slate-200 dark:border-slate-800">
+          <h3 class="text-2xl font-bold mb-6 text-primary">
+            🚦 Señalización Técnica y PMT
+          </h3>
+
+          <ul class="space-y-5 text-slate-700 dark:text-slate-300 leading-relaxed">
+            <li>✔ Conos de 0.45 m y 0.70 m con lámina reflectiva Tipo III o IV.</li>
+            <li>✔ Señal preventiva a 400 m en vías rápidas y entre 100-200 m en zonas urbanas.</li>
+            <li>✔ Canalización mínima: 135 m a 60 km/h y 100 m a 40 km/h.</li>
+            <li>✔ Barricadas visibles a 300 metros con reflectividad Tipo III.</li>
+            <li>✔ Bandereros con chaleco NTC-4739 y paleta PARE/SIGA reglamentaria.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div
+        class="fade-section mt-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl p-10 text-white shadow-2xl">
+        <h3 class="text-3xl font-black mb-4">
+          Una cultura preventiva que protege vidas y negocios
+        </h3>
+
+        <p class="text-lg leading-relaxed text-orange-50">
+          La seguridad ya no es un simple cumplimiento administrativo. Es una estrategia de liderazgo,
+          sostenibilidad y protección jurídica. La ejecución técnica en tiempo real y la trazabilidad
+          digital representan hoy la principal defensa corporativa frente a riesgos operacionales,
+          legales y reputacionales.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-24 px-6 bg-slate-50 dark:bg-slate-900">
+    <div class="max-w-4xl mx-auto">
+
+      <div class="text-center mb-16 fade-section">
+        <h2 class="text-4xl md:text-5xl font-black mb-4">
+          Preguntas Frecuentes
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400">
+          Respuestas claras para fortalecer la ejecución técnica y el cumplimiento normativo.
+        </p>
+      </div>
+
+      <div class="space-y-5">
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-section bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+          <button class="faq-question w-full text-left p-6 flex justify-between items-center font-bold text-lg">
+            ¿Es obligatorio el SG-SST para pequeñas empresas en 2026?
+            <span>+</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 text-slate-600 dark:text-slate-300">
+            Sí. El cumplimiento es universal y obligatorio para todas las organizaciones,
+            independientemente de su tamaño o sector económico.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-section bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+          <button class="faq-question w-full text-left p-6 flex justify-between items-center font-bold text-lg">
+            ¿Cuáles son los tres momentos obligatorios de las evaluaciones médicas?
+            <span>+</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 text-slate-600 dark:text-slate-300">
+            Ingreso, periódicas y retiro. Deben alinearse con los riesgos específicos del cargo.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-section bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+          <button class="faq-question w-full text-left p-6 flex justify-between items-center font-bold text-lg">
+            ¿Qué características deben tener las señales preventivas?
+            <span>+</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 text-slate-600 dark:text-slate-300">
+            Forma de rombo, fondo naranja reflectivo y símbolos negros. Se recomienda material reflectivo Tipo III para vías rápidas.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-section bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden">
+          <button class="faq-question w-full text-left p-6 flex justify-between items-center font-bold text-lg">
+            ¿Es obligatorio evaluar el riesgo psicosocial?
+            <span>+</span>
+          </button>
+          <div class="faq-answer hidden px-6 pb-6 text-slate-600 dark:text-slate-300">
+            Sí. Es un componente estratégico y obligatorio del SG-SST enfocado en prevenir enfermedades derivadas del estrés laboral.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+    <div class="max-w-5xl mx-auto text-center fade-section">
+
+      <h2 class="text-4xl md:text-6xl font-black mb-8">
+        Proteja su operación con cumplimiento técnico real
+      </h2>
+
+      <p class="text-xl text-slate-300 mb-10 leading-relaxed">
+        La sostenibilidad empresarial en 2026 depende de decisiones preventivas,
+        liderazgo y ejecución técnica verificable.
+      </p>
+
+      <a href="https://wa.me/573122545428"
+        class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 px-10 py-5 rounded-2xl text-lg font-bold shadow-2xl hover:scale-105 transition duration-300">
+        💬 Contactar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-10 px-6 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <div class="text-center md:text-left">
+        <h3 class="text-white font-bold text-lg mb-2">
+          SST & Infraestructura Vial 2026
+        </h3>
+        <p class="text-sm">
+          © 2026 Todos los derechos reservados.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-5 text-2xl">
+        <a href="#" class="hover:text-white transition">🌐</a>
+        <a href="#" class="hover:text-white transition">📘</a>
+        <a href="#" class="hover:text-white transition">💼</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/573122545428"
+    target="_blank"
+    class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 text-3xl">
+    💬
+  </a>
+
+  <!-- SCRIPTS -->
+  <script>
+    // DARK MODE
+    const html = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+
+    if (localStorage.getItem('theme') === 'dark') {
+      html.classList.add('dark');
+      themeToggle.textContent = '☀️';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+
+      if (html.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.textContent = '☀️';
+      } else {
+        localStorage.setItem('theme', 'light');
+        themeToggle.textContent = '🌙';
+      }
+    });
+
+    // FAQ ACCORDION
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        const icon = button.querySelector('span');
+
+        answer.classList.toggle('hidden');
+
+        icon.textContent = answer.classList.contains('hidden') ? '+' : '−';
+      });
+    });
+
+    // FADE IN ON SCROLL
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.15
+    });
+
+    document.querySelectorAll('.fade-section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
+</html>
